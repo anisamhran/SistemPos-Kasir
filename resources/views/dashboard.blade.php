@@ -35,6 +35,17 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-4">
+            <div class = "card" style="background-color: #D4F0F7;">
+                <div class="card-body" style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h5 class="card-title text-primary">Jumlah Barang</h5>
+                        <p class="card-text"><span style="font-weight: bold; font-size: 24px;">{{ $barangCount }}</span></p>
+                    </div>
+                    <i class="fas fa-box fa-2x" style="flex-shrink: 0;"></i>
+                </div>
+            </div>
+        </div>
         {{-- <div class="col-md-4">
             <div class= "card" style="background-color: #D4F0F7;">
                 <div class="card-body" style="display: flex; justify-content: space-between; align-items: center;">
@@ -90,6 +101,29 @@
                                 <tr>
                                     <td>{{ $barang->nama }}</td>
                                     <td>{{ $barang->nama_jenis }}</td>
+                                </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mt-4">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">Daftar User</h5>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Nama</th>
+                                <th>Peran</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach ($users->sortByDesc('created_at')->take(7) as $user)
+                                <tr>
+                                    <td>{{ $user->username }}</td>
+                                    <td>{{ $user->role->nama_role }}</td>
                                 </tr>
                             @endforeach
                         </tbody>
