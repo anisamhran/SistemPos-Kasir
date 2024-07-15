@@ -85,7 +85,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
             <div class="card mt-4">
                 <div class="card-body">
                     <h5 class="card-title text-primary">Daftar Barang</h5>

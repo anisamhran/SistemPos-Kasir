@@ -19,7 +19,6 @@
 - Minimal terdapat 1 Trigger
 
 ## Hasil
-
 Penerapan Ketentuan : 
 - 2 Fuction (Hitung biaya PPN, Hitung Grand Total Pengadaan)
 - 3 Stored Procedure (Retur -- Detail Retur, Penerimaan -- Detail Penerimaan, Pengadaan -- Detail Pengadaan )
@@ -43,3 +42,9 @@ Fitur tersedia :
 - Stok
 
 ![alt text](127.0.0.1_8000_.png)
+![alt text](127.0.0.1_8000_dashboard.png) 
+![alt text](127.0.0.1_8000_barang.png) 
+![alt text](127.0.0.1_8000_create-pengadaan.png) 
+![alt text](127.0.0.1_8000_data-pengadaan.png) 
+![alt text](127.0.0.1_8000_data-penerimaan.png) 
+![alt text](127.0.0.1_8000_stok-barang.png)

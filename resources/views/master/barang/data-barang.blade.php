@@ -4,11 +4,7 @@
 @section('title')
 <div class="container-fluid" id="container-wrapper">
   <div class="d-sm-flex align-items-center justify-content-between mb-4">
-    <h1 class="h3 mb-0 text-gray-800">Province</h1>
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="./">Home</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Province</li>
-    </ol>
+    <h1 class="h3 mb-0 text-gray-800">Barang</h1>
   </div>
 @endsection
 
@@ -17,7 +13,7 @@
     <div class="card mb-4">
       <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between float-md-end">
         <button type="button" class="btn btn-sm btn-primary" onclick="window.location='{{ route('create-barang') }}'">
-          <i class="fas fa-plus-circle"></i> Add Province
+          <i class="fas fa-plus-circle"></i> Tambah Barang
         </button>
       </div>
       <div class="table-responsive p-3">
